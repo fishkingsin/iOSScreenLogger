@@ -128,7 +128,7 @@ public class Logger: NSObject {
         let _ = vc.view
     }
 
-    func showLogButton(show isShow: Bool = true) {
+    public func showLogButton(show isShow: Bool = true) {
         showButton.isHidden = !isShow
         loggerView.isHidden = isShow
         closeButton.isHidden = isShow
